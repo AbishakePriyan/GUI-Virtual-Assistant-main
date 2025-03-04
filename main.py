@@ -57,7 +57,7 @@ def lee_voice(text):
 class Widget:
     def __init__(self):
         root = Tk()
-        root.title("Bharath's Slave")
+        root.title("Kate")
         root.geometry('700x499')
         img = ImageTk.PhotoImage(Image.open('Voice ASSISTANT KATE(1).jpg'))
         panel = Label(root, image=img)
@@ -65,7 +65,7 @@ class Widget:
         compText = StringVar()
         userText = StringVar()
         userText.set('Your Virtual Assistant')
-        userFrame = LabelFrame(root, text='Slave', font=('Railways', 24, 'bold'))
+        userFrame = LabelFrame(root, text='Kate', font=('Railways', 24, 'bold'))
         userFrame.pack(fill='both', expand='yes')
         top = Message(userFrame, textvariable=userText, bg='black', fg='white')
         top.config(font=("Century Gothic", 15, 'bold'))
@@ -101,7 +101,7 @@ class Widget:
             lee_voice(person)
 
         if 'who are you' in voice_data:
-            lee_voice("i am Bharath Slave, i am your Assistant")
+            lee_voice("i am Kate, i am your Assistant")
 
         if 'joke' in voice_data:
             x = pyjokes.get_joke()
