@@ -1,0 +1,14 @@
+pyaudio
+pyjokes
+pyttsx3
+time
+playsound
+respond
+os
+random
+wikipedia
+gtts
+tkinter
+PIL
+pywhatkit
+speech_recognition
